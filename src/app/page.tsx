@@ -4,6 +4,8 @@ import { Inter } from '@next/font/google'
 import styles from './page.module.css'
 import law from '../../public/law.jpg'
 import { motion } from 'framer-motion'
+import Navbar from '../components/Navbar';
+import About from '@/components/About';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +18,7 @@ export default function Home() {
           <Image alt='' className='h-screen' src={law}/>
         </div>
         <div className='flex-2'>
+        <Navbar/>
         <div className='grid place-content-center h-screen p-20 gap-10'>
           <h1 className='text-6xl font-bold text-secondary'>Vandana Singh and Associates</h1>
           <p className='text-primary text-xl'>
@@ -33,6 +36,7 @@ export default function Home() {
         </div>
         </div>
       </div>
+      <About/>
     </main>
   )
 }
