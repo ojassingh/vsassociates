@@ -34,7 +34,7 @@ export default function Navbar() {
       <ul className="flex gap-4">
         {links.map((link: any) => {
           return (
-            <li id={link.id} className="text-secondary font-medium text-lg">
+            <li id={link.id} className="text-secondary font-medium text-lg px-3 py-2 bg-gray-400/30 rounded-xl">
               <Link href={link.link}>{link.name}</Link>
             </li>
           );
