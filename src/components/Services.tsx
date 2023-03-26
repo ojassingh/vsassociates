@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Icon1 from "./icons/icon1";
+import Icon1 from "./icons/Icon1";
 import Icon2 from "./icons/Icon2";
 import Icon3 from "./icons/Icon3";
 import Icon4 from "./icons/Icon4";
