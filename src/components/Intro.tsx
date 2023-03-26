@@ -3,10 +3,11 @@ import Image from 'next/image'
 import law from '../../public/law.jpg'
 import { motion } from 'framer-motion'
 import Navbar from './Navbar';
-
+import Head from 'next/head';
 
 export default function Intro(){
     return(<div id='home' className='h-screen'>
+      <Head><title>VS Associates</title></Head>
     <div className='flex gap-4'>
     <div id='image' className='flex-1'>
       <Image alt='' className='h-screen' src={law}/>
