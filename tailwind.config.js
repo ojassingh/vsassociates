@@ -15,6 +15,9 @@ module.exports = {
         'primary': "#117CD9",
         'secondary': '#0460D9',
         'beige': '#A2A685'
+      },
+      flex: {
+        '2': '2 2 0%'
       }
     },
   },
