@@ -12,7 +12,7 @@ export default function Navbar() {
         {links.map((link: any) => {
           return (
             <motion.li whileHover={{scale:1.05, transition: {duration: 0.1}}} key={link.id} className="text-secondary font-medium text-lg px-3 py-2 bg-gray-400/30 rounded-xl">
-              <Link href={link.link}>{link.name}</Link>
+              <a href={link.link}>{link.name}</a>
             </motion.li>
           );
         })}

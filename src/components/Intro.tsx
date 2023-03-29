@@ -20,12 +20,12 @@ export default function Intro(){
       Welcome to Vandana Singh and Associates, a premier corporate law business based in Delhi, India. Founded and owned by company secretary Vandana Singh, our firm offers comprehensive legal services to businesses operating internationally.
       </p>
       <div className='flex'>
-      <motion.button whileHover={{
+      <motion.a href='#contact' whileHover={{
         scale: 1.1,
         transition: { duration: 0.3 },
       }} className='px-4 py-3 bg-secondary text-white text-lg rounded-3xl'>
         Contact us
-      </motion.button>
+      </motion.a>
       </div>
     </div>
     </div>
