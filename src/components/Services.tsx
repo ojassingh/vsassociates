@@ -55,9 +55,9 @@ export default function Services() {
   ];
 
   return (
-    <div id="services" className="bg-back p-20">
-      <h1 className="text-6xl font-bold text-secondary flex gap-10 ">Our services <span className="scale-150 mt-6"><Icon6/> </span></h1>
-      <div id="service-menu" className="p-20">
+    <div id="services" className="bg-back lg:p-20 p-6">
+      <h1 className="text-6xl font-bold text-secondary flex gap-10 px-2">Our services <span className="scale-150 mt-6"><Icon6/> </span></h1>
+      <div id="service-menu" className="lg:p-20 p-4 grid place-content-center">
         <div className="flex flex-wrap gap-10 text-black">
           {services.map((service: any, i: number)=>{
             return(<motion.div key={i}

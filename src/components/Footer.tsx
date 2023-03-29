@@ -22,7 +22,7 @@ export default function Footer() {
           <ul className="">
             {links.map((link: any, i: number) => {
               return (
-                <li>
+                <li key={i}>
                   <Link key={i} href={link.link}>
                     {link.name}
                   </Link>

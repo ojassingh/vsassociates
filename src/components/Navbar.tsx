@@ -7,7 +7,7 @@ export default function Navbar() {
 
   const links = getLinks();
   return (
-    <div className="grid place-content-end px-10 py-5">
+    <div className="grid lg:place-content-end xl:place-content-end sm:place-content-center md:place-content-center lg:px-10 xl:px-10 px-4 py-5">
       <ul className="flex gap-4">
         {links.map((link: any) => {
           return (

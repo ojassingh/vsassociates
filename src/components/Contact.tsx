@@ -44,7 +44,7 @@ const submitHandler = (e: any) => {
 
 
   return (
-    <div id="contact" className="p-20 bg-[#CED9B8]">
+    <div id="contact" className="lg:p-20 p-10 bg-[#CED9B8]">
       <h1 className="text-5xl font-bold text-dark">Have any questions?</h1>
       <h1 className="text-xl font-medium text-dark pt-4">
         Contact us with any queries you have!
@@ -53,8 +53,8 @@ const submitHandler = (e: any) => {
         All messages will be replied to within a 1-2 business days.
       </h1>
       <div className="grid place-content-center">
-      <div className="p-10 flex flex-wrap gap-10">
-        <div className="flex-3 shadow-xl rounded-3xl p-10 grid gap-10 bg-back text-dark text-lg">
+      <div className="lg:p-10 mt-8 lg:flex flex-wrap gap-10">
+        <div className="flex-3 shadow-xl rounded-3xl lg:p-10 p-4 grid gap-10 bg-back text-dark text-lg">
 
           <form ref={form} onSubmit={submitHandler} className="grid gap-4">
             <div className="">

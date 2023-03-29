@@ -7,13 +7,13 @@ export default function About() {
   return (
     <main
       id="about"
-      className=" bg-[#CED9B8] p-20 grid place-content-center"
+      className=" bg-[#CED9B8] lg:p-20 p-6 grid place-content-center"
     >
       <h1 className="text-dark font-bold text-6xl pt-10">Meet the founder! 👋</h1>
-      <div className="flex flex-wrap-reverse py-20 px-10 gap-2 place-content-center divide-x">
+      <div className="lg:flex xl:flex flex-wrap-reverse py-20 lg:px-10 px-4 gap-2 mx-auto divide-x">
         <div className="flex-1">
           <div id="description" className="">
-            <p className="text-xl text-gray-900 rounded-3xl bg-back p-10 shadow-xl">
+            <p className="text-xl text-gray-900 rounded-3xl bg-back lg:p-10 p-6 shadow-xl">
               <span className="text-secondary font-medium">Vandana Singh</span>{" "}
               is a highly experienced company secretary in practice, with over a{" "}
               <span className="text-secondary font-medium">
@@ -38,7 +38,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="flex-1 grid place-content-center">
+        <div className="flex-1 grid place-content-center mt-4">
           <div id="image" className="grid place-content-center gap-2">
             <Image alt="" src={vs} className=" w-96 rounded-3xl shadow-xl" />
             <div className="flex gap-3 w-full">

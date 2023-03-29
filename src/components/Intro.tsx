@@ -8,8 +8,8 @@ import Head from 'next/head';
 export default function Intro(){
     return(<div id='home' className=''>
       <Head><title>VS Associates</title></Head>
-    <div className='flex flex-wrap-reverse gap-4'>
-    <div id='image' className='flex-1'>
+    <div className='lg:flex flex-wrap gap-4'>
+    <div id='image' className='flex-1 xs:hidden sm:hidden lg:block xl:block'>
       <Image alt='' className='' src={law}/>
     </div>
     <div className='flex-2'>
