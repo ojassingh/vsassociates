@@ -18,11 +18,11 @@ export default function getLinks(){
           name: "Services",
           link: "#services",
         },
-        {
-          id: 4,
-          name: "Blog",
-          link: "/blog",
-        },
+        // {
+        //   id: 4,
+        //   name: "Blog",
+        //   link: "/blog",
+        // },
         {
           id: 5,
           name: "Contact",
