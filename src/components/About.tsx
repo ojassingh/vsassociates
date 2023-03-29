@@ -10,7 +10,7 @@ export default function About() {
       className=" bg-[#CED9B8] lg:p-20 p-6 grid place-content-center"
     >
       <h1 className="text-dark font-bold text-6xl pt-10">Meet the founder! 👋</h1>
-      <div className="lg:flex xl:flex flex-wrap-reverse py-20 lg:px-10 px-4 gap-2 mx-auto divide-x">
+      <div className="lg:flex xl:flex flex-wrap-reverse py-20 lg:px-10 px-4 gap-2 mx-auto ">
         <div className="flex-1">
           <div id="description" className="">
             <p className="text-xl text-gray-900 rounded-3xl bg-back lg:p-10 p-6 shadow-xl">
