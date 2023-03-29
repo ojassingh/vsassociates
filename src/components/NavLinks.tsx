@@ -20,6 +20,11 @@ export default function getLinks(){
         },
         {
           id: 4,
+          name: "Blog",
+          link: "/blog",
+        },
+        {
+          id: 5,
           name: "Contact",
           link: "#contact",
         },
